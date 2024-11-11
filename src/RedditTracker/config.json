@@ -1,0 +1,15 @@
+{
+    "AuthenticationString": "Y08muIHaB0FVftQZxR2AYQ",
+    "UserAgent": "RedditCode/1.0 by u/m-usman307",
+    "SubRedditsToMonitor": [
+        "askreddit",
+        "worldnews",
+        "gaming",
+        "programming",
+        "todayilearned"
+    ],
+    "NumberOfPostsToTrack": 3,
+    "NumberOfAuthorsToTrack": 3,
+    "Mode": "top",
+    "MaxDegreeOfParallelism": 5
+}

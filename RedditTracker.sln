@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker", "src\RedditTracker\RedditTracker.csproj", "{2163FCA1-BB63-4411-B8ED-04E2EE474F10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{34CC4CEF-95C3-45E7-9680-AC8D91002120}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7244DC0F-DD35-4E56-AEDD-027ABFB3EA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker.Core", "src\RedditTracker.Core\RedditTracker.Core.csproj", "{7182A511-F91A-4ADF-80C2-5909C56232FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker.Core.Tests", "tests\RedditTracker.Core.Tests\RedditTracker.Core.Tests.csproj", "{157525AE-209E-41AB-88A1-0E50BB3540E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2163FCA1-BB63-4411-B8ED-04E2EE474F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2163FCA1-BB63-4411-B8ED-04E2EE474F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2163FCA1-BB63-4411-B8ED-04E2EE474F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2163FCA1-BB63-4411-B8ED-04E2EE474F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7182A511-F91A-4ADF-80C2-5909C56232FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7182A511-F91A-4ADF-80C2-5909C56232FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7182A511-F91A-4ADF-80C2-5909C56232FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7182A511-F91A-4ADF-80C2-5909C56232FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157525AE-209E-41AB-88A1-0E50BB3540E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157525AE-209E-41AB-88A1-0E50BB3540E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157525AE-209E-41AB-88A1-0E50BB3540E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157525AE-209E-41AB-88A1-0E50BB3540E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2163FCA1-BB63-4411-B8ED-04E2EE474F10} = {34CC4CEF-95C3-45E7-9680-AC8D91002120}
+		{7182A511-F91A-4ADF-80C2-5909C56232FD} = {34CC4CEF-95C3-45E7-9680-AC8D91002120}
+		{157525AE-209E-41AB-88A1-0E50BB3540E1} = {7244DC0F-DD35-4E56-AEDD-027ABFB3EA28}
+	EndGlobalSection
+EndGlobal
